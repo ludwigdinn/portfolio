@@ -59,6 +59,18 @@ html {
   }
 }
 
+/* 360px / 16px = 22.50em */
+@media (max-width: 22.5em) {
+  html {
+    font-size: 40%;
+  }
+
+  .welcome-section {
+    padding-bottom: 10em;
+  }
+}
+
+
 /* estilos */
 body {
   font-family: 'Poppins', sans-serif;
