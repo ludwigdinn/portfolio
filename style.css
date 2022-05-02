@@ -31,8 +31,6 @@ html {
 
 /* algumas @media pra automatizar a responsividade.
 */
-
-
 /* calculo de em - tamanho da tela dividido
  * pelo tamanho base da fonte do navegador:
  *        980px / 16px = 61.25em
@@ -59,8 +57,20 @@ html {
   }
 }
 
-/* 360px / 16px = 22.50em */
-@media (max-width: 22.5em) {
+/* 430px / 16px = 26.25em */
+@media (max-width: 26.25em) {
+  html {
+    font-size: 45%;
+  }
+
+  .welcome-section {
+    padding-bottom: 10em;
+  }
+  
+}
+
+/* 400px / 16px = 25em */
+@media (max-width: 25em) {
   html {
     font-size: 40%;
   }
@@ -68,6 +78,7 @@ html {
   .welcome-section {
     padding-bottom: 10em;
   }
+  
 }
 
 
